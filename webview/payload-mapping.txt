@@ -1,0 +1,544 @@
+seed: 03298bf7eee8d8c8ab50897ca4c5dd50-fe7ca82d6ab2
+package: palpgczc
+source: payload.dex
+entry: palpgczc.n0.ubrzpnm
+
+# compiler: R8
+# compiler_version: 9.0.14-dev
+# min_api: 26
+# compiler_hash: 3907596d166e6c6202e18e850ae07cd1550e2498
+# common_typos_disable
+# {"id":"com.android.tools.r8.mapping","version":"2.2"}
+# pg_map_id: cde4a24f5aed836a543657a690bc13e05b7f14f8cea170797b722d9adc0df360
+# pg_map_hash: SHA-256 cde4a24f5aed836a543657a690bc13e05b7f14f8cea170797b722d9adc0df360
+com.github.megatronking.stringfog.Base64 -> palpgczc.e:
+# {"id":"sourceFile","fileName":"Base64.java"}
+    int CRLF -> msmahz
+    int NO_WRAP -> ugxvsp
+    int URL_SAFE -> upnp
+    int DEFAULT -> wjmptze
+    int NO_PADDING -> xanvt
+    1:4:void <init>():697:697 -> <init>
+    1:6:byte[] encode(byte[],int,int,int):472:472 -> hvnbjfea
+    7:10:byte[] encode(byte[],int,int,int):475:475 -> hvnbjfea
+    11:16:byte[] encode(byte[],int,int,int):478:478 -> hvnbjfea
+    17:23:byte[] encode(byte[],int,int,int):479:479 -> hvnbjfea
+    24:35:byte[] encode(byte[],int,int,int):483:483 -> hvnbjfea
+    36:43:byte[] encode(byte[],int,int,int):491:491 -> hvnbjfea
+    44:46:byte[] encode(byte[],int,int,int):492:492 -> hvnbjfea
+    47:54:byte[] encode(byte[],int,int,int):493:493 -> hvnbjfea
+    55:58:byte[] encode(byte[],int,int,int):496:496 -> hvnbjfea
+    59:61:byte[] encode(byte[],int,int,int):497:497 -> hvnbjfea
+    62:64:byte[] encode(byte[],int,int,int):499:499 -> hvnbjfea
+    1:5:byte[] encode(java.lang.String,int):443:443 -> msmahz
+    6:11:byte[] encode(byte[],int):456:456 -> msmahz
+    6:11:byte[] encode(java.lang.String,int):443 -> msmahz
+    1:12:byte[] decode(byte[],int,int,int):150:150 -> ugxvsp
+    13:18:byte[] decode(byte[],int,int,int):152:152 -> ugxvsp
+    19:26:byte[] decode(byte[],int,int,int):157:157 -> ugxvsp
+    27:29:byte[] decode(byte[],int,int,int):163:163 -> ugxvsp
+    30:33:byte[] decode(byte[],int,int,int):164:164 -> ugxvsp
+    34:41:byte[] decode(byte[],int,int,int):153:153 -> ugxvsp
+    2:7:byte[] encode(byte[],int):456:456 -> upnp
+    1:5:byte[] decode(java.lang.String,int):110:110 -> wjmptze
+    6:11:byte[] decode(byte[],int):128:128 -> wjmptze
+    6:11:byte[] decode(java.lang.String,int):110 -> wjmptze
+    2:7:byte[] decode(byte[],int):128:128 -> xanvt
+com.github.megatronking.stringfog.Base64$Coder -> palpgczc.a:
+# {"id":"sourceFile","fileName":"Base64.java"}
+    byte[] output -> wjmptze
+    int op -> xanvt
+    1:4:void <init>():63:63 -> <init>
+    int maxOutputSize(int) -> wjmptze
+    boolean process(byte[],int,int,boolean) -> xanvt
+com.github.megatronking.stringfog.Base64$Decoder -> palpgczc.b:
+# {"id":"sourceFile","fileName":"Base64.java"}
+    int EQUALS -> bawn
+    int[] DECODE -> hvnbjfea
+    int value -> msmahz
+    int[] DECODE_WEBSAFE -> ubrzpnm
+    int state -> ugxvsp
+    int[] alphabet -> upnp
+    int SKIP -> wbpowbn
+    3:11:void <clinit>():173:173 -> <clinit>
+    12:20:void <clinit>():196:196 -> <clinit>
+    1:1:void palpgczc.Base64$Decoder.<init>(int,byte[],palpgczc.Base64-IA):0:0 -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(I[BLpalpgczc/d;)V"}
+    2:2:void com.github.megatronking.stringfog.Base64$Coder.<init>():63:63 -> <init>
+    2:2:void <init>(int,byte[]):233 -> <init>
+    3:3:void <init>(int,byte[]):234:234 -> <init>
+    4:6:void <init>(int,byte[]):236:238 -> <init>
+    3:7:int maxOutputSize(int):246:246 -> wjmptze
+    1:1:boolean process(byte[],int,int,boolean):256:256 -> xanvt
+    2:2:boolean process(byte[],int,int,boolean):267:267 -> xanvt
+    3:4:boolean process(byte[],int,int,boolean):269:270 -> xanvt
+    5:5:boolean process(byte[],int,int,boolean):288:288 -> xanvt
+    6:8:boolean process(byte[],int,int,boolean):293:295 -> xanvt
+    9:9:boolean process(byte[],int,int,boolean):307:307 -> xanvt
+    10:10:boolean process(byte[],int,int,boolean):378:378 -> xanvt
+    11:11:boolean process(byte[],int,int,boolean):371:371 -> xanvt
+    12:14:boolean process(byte[],int,int,boolean):349:351 -> xanvt
+    15:16:boolean process(byte[],int,int,boolean):357:358 -> xanvt
+    17:17:boolean process(byte[],int,int,boolean):362:362 -> xanvt
+    18:18:boolean process(byte[],int,int,boolean):337:337 -> xanvt
+    19:19:boolean process(byte[],int,int,boolean):340:340 -> xanvt
+    20:20:boolean process(byte[],int,int,boolean):325:325 -> xanvt
+    21:21:boolean process(byte[],int,int,boolean):315:315 -> xanvt
+    22:24:boolean process(byte[],int,int,boolean):388:390 -> xanvt
+    25:25:boolean process(byte[],int,int,boolean):419:419 -> xanvt
+    26:27:boolean process(byte[],int,int,boolean):414:415 -> xanvt
+    28:28:boolean process(byte[],int,int,boolean):409:409 -> xanvt
+    29:30:boolean process(byte[],int,int,boolean):427:428 -> xanvt
+    31:31:boolean process(byte[],int,int,boolean):404:404 -> xanvt
+com.github.megatronking.stringfog.Base64$Encoder -> palpgczc.c:
+# {"id":"sourceFile","fileName":"Base64.java"}
+    byte[] alphabet -> bawn
+    boolean do_padding -> hvnbjfea
+    byte[] ENCODE -> izlg
+    int tailLen -> msmahz
+    boolean do_newline -> ubrzpnm
+    byte[] tail -> ugxvsp
+    int count -> upnp
+    boolean do_cr -> wbpowbn
+    int LINE_GROUPS -> whdx
+    byte[] ENCODE_WEBSAFE -> yvmlobes
+    3:11:void <clinit>():514:514 -> <clinit>
+    12:20:void <clinit>():525:525 -> <clinit>
+    1:1:void palpgczc.Base64$Encoder.<init>(int,byte[],palpgczc.Base64-IA):0:0 -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(I[BLpalpgczc/d;)V"}
+    2:2:void com.github.megatronking.stringfog.Base64$Coder.<init>():63:63 -> <init>
+    2:2:void <init>(int,byte[]):541 -> <init>
+    3:3:void <init>(int,byte[]):542:542 -> <init>
+    4:7:void <init>(int,byte[]):544:547 -> <init>
+    8:9:void <init>(int,byte[]):549:550 -> <init>
+    10:10:void <init>(int,byte[]):552:552 -> <init>
+    3:7:int maxOutputSize(int):560:560 -> wjmptze
+    1:2:boolean process(byte[],int,int,boolean):565:566 -> xanvt
+    3:3:boolean process(byte[],int,int,boolean):568:568 -> xanvt
+    4:4:boolean process(byte[],int,int,boolean):578:578 -> xanvt
+    5:5:boolean process(byte[],int,int,boolean):597:597 -> xanvt
+    6:6:boolean process(byte[],int,int,boolean):600:600 -> xanvt
+    7:7:boolean process(byte[],int,int,boolean):587:587 -> xanvt
+    8:8:boolean process(byte[],int,int,boolean):590:590 -> xanvt
+    9:12:boolean process(byte[],int,int,boolean):606:609 -> xanvt
+    13:14:boolean process(byte[],int,int,boolean):611:612 -> xanvt
+    15:15:boolean process(byte[],int,int,boolean):623:623 -> xanvt
+    16:19:boolean process(byte[],int,int,boolean):626:629 -> xanvt
+    20:21:boolean process(byte[],int,int,boolean):633:634 -> xanvt
+    22:22:boolean process(byte[],int,int,boolean):645:645 -> xanvt
+    23:29:boolean process(byte[],int,int,boolean):647:653 -> xanvt
+    30:32:boolean process(byte[],int,int,boolean):655:657 -> xanvt
+    33:40:boolean process(byte[],int,int,boolean):661:668 -> xanvt
+    41:43:boolean process(byte[],int,int,boolean):670:672 -> xanvt
+    44:46:boolean process(byte[],int,int,boolean):674:676 -> xanvt
+    47:47:boolean process(byte[],int,int,boolean):683:683 -> xanvt
+    48:49:boolean process(byte[],int,int,boolean):685:686 -> xanvt
+    50:51:boolean process(byte[],int,int,boolean):690:691 -> xanvt
+com.github.megatronking.stringfog.Base64-IA -> palpgczc.d:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+com.github.megatronking.stringfog.IKeyGenerator -> palpgczc.f:
+# {"id":"sourceFile","fileName":"IKeyGenerator.java"}
+    byte[] generate(java.lang.String) -> wjmptze
+com.github.megatronking.stringfog.IStringFog -> palpgczc.g:
+# {"id":"sourceFile","fileName":"IStringFog.java"}
+    java.lang.String decrypt(byte[],byte[]) -> ugxvsp
+    boolean shouldFog(java.lang.String) -> wjmptze
+    byte[] encrypt(java.lang.String,byte[]) -> xanvt
+com.github.megatronking.stringfog.StringFogWrapper -> palpgczc.j:
+# {"id":"sourceFile","fileName":"StringFogWrapper.java"}
+    com.github.megatronking.stringfog.IStringFog mStringFogImpl -> wjmptze
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Lpalpgczc/g;"}
+    1:3:void <init>(java.lang.String):29:29 -> <init>
+    4:29:void <init>(java.lang.String):31:31 -> <init>
+    30:31:void <init>(java.lang.String):38:38 -> <init>
+    32:53:void <init>(java.lang.String):39:39 -> <init>
+    54:55:void <init>(java.lang.String):35:35 -> <init>
+    56:77:void <init>(java.lang.String):36:36 -> <init>
+    78:97:void <init>(java.lang.String):33:33 -> <init>
+    1:15:java.lang.String decrypt(byte[],byte[]):50:50 -> ugxvsp
+    1:14:boolean shouldFog(java.lang.String):55:55 -> wjmptze
+    1:14:byte[] encrypt(java.lang.String,byte[]):45:45 -> xanvt
+com.github.megatronking.stringfog.annotation.StringFogIgnore -> palpgczc.i:
+# {"id":"sourceFile","fileName":"StringFogIgnore.java"}
+com.kFjQzLm.fog.StringFogAesImpl -> palpgczc.h:
+# {"id":"sourceFile","fileName":"StringFogAesImpl.java"}
+    1:4:void <init>():6:6 -> <init>
+    3:7:byte[] normalizeKey(byte[]):23:23 -> msmahz
+    8:18:byte[] normalizeKey(byte[]):24:24 -> msmahz
+    1:6:java.lang.String decrypt(byte[],byte[]):17:17 -> ugxvsp
+    7:21:java.lang.String decrypt(byte[],byte[]):18:18 -> ugxvsp
+    22:34:java.lang.String decrypt(byte[],byte[]):19:19 -> ugxvsp
+    35:42:java.lang.String decrypt(byte[],byte[]):20:20 -> ugxvsp
+    1:2:boolean shouldFog(java.lang.String):7:7 -> wjmptze
+    1:6:byte[] encrypt(java.lang.String,byte[]):10:10 -> xanvt
+    7:21:byte[] encrypt(java.lang.String,byte[]):11:11 -> xanvt
+    22:33:byte[] encrypt(java.lang.String,byte[]):12:12 -> xanvt
+    34:41:byte[] encrypt(java.lang.String,byte[]):13:13 -> xanvt
+com.webloader.apsqwvxz -> palpgczc.k:
+# {"id":"sourceFile","fileName":"apsqwvxz.java"}
+    int lekyp -> wjmptze
+    1:5:void <init>():3:3 -> <init>
+    6:8:void <init>():4:4 -> <init>
+    1:9:java.lang.String bnkho():9:9 -> wjmptze
+    3:6:int xdjde(int):6:6 -> xanvt
+com.webloader.fvndgpl -> palpgczc.l:
+# {"id":"sourceFile","fileName":"fvndgpl.java"}
+    int yppfx -> wjmptze
+    1:5:void <init>():3:3 -> <init>
+    6:8:void <init>():4:4 -> <init>
+    3:6:int oebip(int):6:6 -> wjmptze
+    1:9:java.lang.String wzjzk():9:9 -> xanvt
+com.webloader.scmkepchf -> palpgczc.m:
+# {"id":"sourceFile","fileName":"scmkepchf.java"}
+    int dvziw -> wjmptze
+    1:5:void <init>():3:3 -> <init>
+    6:8:void <init>():4:4 -> <init>
+    3:6:int pvcyw(int):6:6 -> wjmptze
+    1:9:java.lang.String yqkwl():9:9 -> xanvt
+com.webloader.wrapper -> palpgczc.n0:
+# {"id":"sourceFile","fileName":"wrapper.java"}
+    1:4:void <init>():25:25 -> <init>
+    4:37:boolean samePage(java.lang.String,java.lang.String):348:348 -> bawn
+    1:1:android.app.Dialog createWindow(android.app.Activity,android.webkit.WebView,java.lang.String):34:34 -> hvnbjfea
+    2:4:android.app.Dialog createWindow(android.app.Activity,android.webkit.WebView,java.lang.String):57:59 -> hvnbjfea
+    5:19:android.app.Dialog createWindow(android.app.Activity,android.webkit.WebView,java.lang.String):61:75 -> hvnbjfea
+    20:20:android.app.Dialog createWindow(android.app.Activity,android.webkit.WebView,java.lang.String):74:74 -> hvnbjfea
+    21:21:android.app.Dialog createWindow(android.app.Activity,android.webkit.WebView,java.lang.String):77:77 -> hvnbjfea
+    22:22:void com.webloader.wrapper$MediaRequests.<init>():260:260 -> hvnbjfea
+    22:22:android.app.Dialog createWindow(android.app.Activity,android.webkit.WebView,java.lang.String):77 -> hvnbjfea
+    23:24:android.app.Dialog createWindow(android.app.Activity,android.webkit.WebView,java.lang.String):78:79 -> hvnbjfea
+    25:27:android.app.Dialog createWindow(android.app.Activity,android.webkit.WebView,java.lang.String):86:88 -> hvnbjfea
+    28:30:android.app.Dialog createWindow(android.app.Activity,android.webkit.WebView,java.lang.String):90:92 -> hvnbjfea
+    31:32:android.app.Dialog createWindow(android.app.Activity,android.webkit.WebView,java.lang.String):95:96 -> hvnbjfea
+    33:34:android.app.Dialog createWindow(android.app.Activity,android.webkit.WebView,java.lang.String):98:99 -> hvnbjfea
+    35:35:android.app.Dialog createWindow(android.app.Activity,android.webkit.WebView,java.lang.String):101:101 -> hvnbjfea
+    36:36:android.app.Dialog createWindow(android.app.Activity,android.webkit.WebView,java.lang.String):109:109 -> hvnbjfea
+    37:48:android.app.Dialog createWindow(android.app.Activity,android.webkit.WebView,java.lang.String):111:122 -> hvnbjfea
+    49:49:android.app.Dialog createWindow(android.app.Activity,android.webkit.WebView,java.lang.String):121:121 -> hvnbjfea
+    50:50:android.app.Dialog createWindow(android.app.Activity,android.webkit.WebView,java.lang.String):124:124 -> hvnbjfea
+    51:51:android.app.Dialog createWindow(android.app.Activity,android.webkit.WebView,java.lang.String):204:204 -> hvnbjfea
+    1:4:void access$100(com.webloader.wrapper,android.app.Activity,android.net.Uri):25:25 -> msmahz
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lpalpgczc/n0;Landroid/app/Activity;Landroid/net/Uri;)V"}
+    1:5:void link(android.app.Activity,java.lang.String):28:28 -> ubrzpnm
+    6:12:void link(android.app.Activity,java.lang.String):29:29 -> ubrzpnm
+    13:16:void link(android.app.Activity,java.lang.String):30:30 -> ubrzpnm
+    1:5:boolean access$000(java.lang.String,java.lang.String):25:25 -> ugxvsp
+    1:5:android.app.Dialog access$300(com.webloader.wrapper,android.app.Activity,android.webkit.WebView,java.lang.String):25:25 -> upnp
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lpalpgczc/n0;Landroid/app/Activity;Landroid/webkit/WebView;Ljava/lang/String;)Landroid/app/Dialog;"}
+    1:13:void openInBrowser(android.app.Activity,android.net.Uri):353:353 -> wbpowbn
+    14:22:void openInBrowser(android.app.Activity,android.net.Uri):355:355 -> wbpowbn
+    23:39:void openInBrowser(android.app.Activity,android.net.Uri):356:356 -> wbpowbn
+    40:43:void openInBrowser(android.app.Activity,android.net.Uri):357:357 -> wbpowbn
+    44:46:void openInBrowser(android.app.Activity,android.net.Uri):356:356 -> wbpowbn
+    47:50:void openInBrowser(android.app.Activity,android.net.Uri):358:358 -> wbpowbn
+    51:61:void openInBrowser(android.app.Activity,android.net.Uri):360:360 -> wbpowbn
+    62:65:void openInBrowser(android.app.Activity,android.net.Uri):361:361 -> wbpowbn
+    1:9:android.view.WindowInsets lambda$createWindow$1(android.view.View,android.view.WindowInsets):103:103 -> wjmptze
+    10:13:android.view.WindowInsets lambda$createWindow$1(android.view.View,android.view.WindowInsets):102:102 -> wjmptze
+    14:21:android.view.WindowInsets lambda$createWindow$1(android.view.View,android.view.WindowInsets):104:104 -> wjmptze
+    22:49:android.view.WindowInsets lambda$createWindow$1(android.view.View,android.view.WindowInsets):105:105 -> wjmptze
+    1:5:void lambda$createWindow$0(com.webloader.wrapper$MediaRequests,android.app.Activity,android.webkit.WebView,android.widget.FrameLayout,android.content.DialogInterface):80:84 -> xanvt
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lpalpgczc/m0;Landroid/app/Activity;Landroid/webkit/WebView;Landroid/widget/FrameLayout;Landroid/content/DialogInterface;)V"}
+com.webloader.wrapper$$ExternalSyntheticApiModelOutline0 -> palpgczc.n:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    1:5:android.window.OnBackInvokedDispatcher palpgczc.wrapper$$ExternalSyntheticApiModelOutline0.m(android.app.Dialog):0:0 -> wjmptze
+      # {"id":"com.android.tools.r8.synthesized"}
+com.webloader.wrapper$$ExternalSyntheticApiModelOutline1 -> palpgczc.v:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    1:4:void palpgczc.wrapper$$ExternalSyntheticApiModelOutline1.m(android.window.OnBackInvokedDispatcher,int,android.window.OnBackInvokedCallback):0:0 -> wjmptze
+      # {"id":"com.android.tools.r8.synthesized"}
+com.webloader.wrapper$$ExternalSyntheticApiModelOutline10 -> palpgczc.o:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    1:5:android.graphics.Insets palpgczc.wrapper$$ExternalSyntheticApiModelOutline10.m(android.view.WindowInsets,int):0:0 -> wjmptze
+      # {"id":"com.android.tools.r8.synthesized"}
+com.webloader.wrapper$$ExternalSyntheticApiModelOutline11 -> palpgczc.p:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    1:5:int palpgczc.wrapper$$ExternalSyntheticApiModelOutline11.m():0:0 -> wjmptze
+      # {"id":"com.android.tools.r8.synthesized"}
+com.webloader.wrapper$$ExternalSyntheticApiModelOutline12 -> palpgczc.q:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    1:5:android.graphics.Insets palpgczc.wrapper$$ExternalSyntheticApiModelOutline12.m(android.view.WindowInsets,int):0:0 -> wjmptze
+      # {"id":"com.android.tools.r8.synthesized"}
+com.webloader.wrapper$$ExternalSyntheticApiModelOutline13 -> palpgczc.r:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    1:3:int palpgczc.wrapper$$ExternalSyntheticApiModelOutline13.m(android.graphics.Insets):0:0 -> wjmptze
+      # {"id":"com.android.tools.r8.synthesized"}
+com.webloader.wrapper$$ExternalSyntheticApiModelOutline14 -> palpgczc.s:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    1:3:int palpgczc.wrapper$$ExternalSyntheticApiModelOutline14.m(android.graphics.Insets):0:0 -> wjmptze
+      # {"id":"com.android.tools.r8.synthesized"}
+com.webloader.wrapper$$ExternalSyntheticApiModelOutline15 -> palpgczc.t:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    1:3:int palpgczc.wrapper$$ExternalSyntheticApiModelOutline15.m(android.graphics.Insets):0:0 -> wjmptze
+      # {"id":"com.android.tools.r8.synthesized"}
+com.webloader.wrapper$$ExternalSyntheticApiModelOutline16 -> palpgczc.u:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    1:3:int palpgczc.wrapper$$ExternalSyntheticApiModelOutline16.m(android.graphics.Insets):0:0 -> wjmptze
+      # {"id":"com.android.tools.r8.synthesized"}
+com.webloader.wrapper$$ExternalSyntheticApiModelOutline2 -> palpgczc.w:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    1:3:void palpgczc.wrapper$$ExternalSyntheticApiModelOutline2.m(android.view.WindowManager$LayoutParams,int):0:0 -> wjmptze
+      # {"id":"com.android.tools.r8.synthesized"}
+com.webloader.wrapper$$ExternalSyntheticApiModelOutline3 -> palpgczc.x:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    1:4:void palpgczc.wrapper$$ExternalSyntheticApiModelOutline3.m(android.view.Window,boolean):0:0 -> wjmptze
+      # {"id":"com.android.tools.r8.synthesized"}
+com.webloader.wrapper$$ExternalSyntheticApiModelOutline4 -> palpgczc.y:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    1:5:android.view.WindowInsetsController palpgczc.wrapper$$ExternalSyntheticApiModelOutline4.m(android.view.Window):0:0 -> wjmptze
+      # {"id":"com.android.tools.r8.synthesized"}
+com.webloader.wrapper$$ExternalSyntheticApiModelOutline5 -> palpgczc.z:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    1:5:int palpgczc.wrapper$$ExternalSyntheticApiModelOutline5.m():0:0 -> wjmptze
+      # {"id":"com.android.tools.r8.synthesized"}
+com.webloader.wrapper$$ExternalSyntheticApiModelOutline6 -> palpgczc.a0:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    1:4:void palpgczc.wrapper$$ExternalSyntheticApiModelOutline6.m(android.view.WindowInsetsController,int):0:0 -> wjmptze
+      # {"id":"com.android.tools.r8.synthesized"}
+com.webloader.wrapper$$ExternalSyntheticApiModelOutline7 -> palpgczc.b0:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    1:4:void palpgczc.wrapper$$ExternalSyntheticApiModelOutline7.m(android.view.WindowInsetsController,int):0:0 -> wjmptze
+      # {"id":"com.android.tools.r8.synthesized"}
+com.webloader.wrapper$$ExternalSyntheticApiModelOutline8 -> palpgczc.c0:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    1:5:int palpgczc.wrapper$$ExternalSyntheticApiModelOutline8.m():0:0 -> wjmptze
+      # {"id":"com.android.tools.r8.synthesized"}
+com.webloader.wrapper$$ExternalSyntheticApiModelOutline9 -> palpgczc.d0:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    1:5:int palpgczc.wrapper$$ExternalSyntheticApiModelOutline9.m():0:0 -> wjmptze
+      # {"id":"com.android.tools.r8.synthesized"}
+com.webloader.wrapper$$ExternalSyntheticLambda17 -> palpgczc.e0:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    1:4:void palpgczc.wrapper$$ExternalSyntheticLambda17.<init>():0:0 -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:4:android.view.WindowInsets palpgczc.wrapper$$ExternalSyntheticLambda17.onApplyWindowInsets(android.view.View,android.view.WindowInsets):0:0 -> onApplyWindowInsets
+      # {"id":"com.android.tools.r8.synthesized"}
+com.webloader.wrapper$$ExternalSyntheticLambda18 -> palpgczc.f0:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    android.app.Dialog com.webloader.wrapper$$InternalSyntheticLambda$1$ae0570d1552800d257e6a724f46af80de4ea3d04ef95d872ad299d38b9c3917d$1.f$0 -> wjmptze
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:6:void palpgczc.wrapper$$ExternalSyntheticLambda18.<init>(android.app.Dialog):0:0 -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:6:void palpgczc.wrapper$$ExternalSyntheticLambda18.onBackInvoked():0:0 -> onBackInvoked
+      # {"id":"com.android.tools.r8.synthesized"}
+com.webloader.wrapper$$ExternalSyntheticLambda19 -> palpgczc.g0:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    android.widget.FrameLayout com.webloader.wrapper$$InternalSyntheticLambda$1$ae0570d1552800d257e6a724f46af80de4ea3d04ef95d872ad299d38b9c3917d$3.f$3 -> msmahz
+      # {"id":"com.android.tools.r8.synthesized"}
+    android.webkit.WebView com.webloader.wrapper$$InternalSyntheticLambda$1$ae0570d1552800d257e6a724f46af80de4ea3d04ef95d872ad299d38b9c3917d$3.f$2 -> ugxvsp
+      # {"id":"com.android.tools.r8.synthesized"}
+    com.webloader.wrapper$MediaRequests com.webloader.wrapper$$InternalSyntheticLambda$1$ae0570d1552800d257e6a724f46af80de4ea3d04ef95d872ad299d38b9c3917d$3.f$0 -> wjmptze
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Lpalpgczc/m0;"}
+      # {"id":"com.android.tools.r8.synthesized"}
+    android.app.Activity com.webloader.wrapper$$InternalSyntheticLambda$1$ae0570d1552800d257e6a724f46af80de4ea3d04ef95d872ad299d38b9c3917d$3.f$1 -> xanvt
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:12:void palpgczc.wrapper$$ExternalSyntheticLambda19.<init>(palpgczc.wrapper$MediaRequests,android.app.Activity,android.webkit.WebView,android.widget.FrameLayout):0:0 -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lpalpgczc/m0;Landroid/app/Activity;Landroid/webkit/WebView;Landroid/widget/FrameLayout;)V"}
+    1:12:void palpgczc.wrapper$$ExternalSyntheticLambda19.onDismiss(android.content.DialogInterface):0:0 -> onDismiss
+      # {"id":"com.android.tools.r8.synthesized"}
+com.webloader.wrapper$1 -> palpgczc.h0:
+# {"id":"sourceFile","fileName":"wrapper.java"}
+    com.webloader.wrapper this$0 -> ugxvsp
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Lpalpgczc/n0;"}
+    android.webkit.WebView val$page -> wjmptze
+    java.lang.String val$startUrl -> xanvt
+    1:1:void <init>(com.webloader.wrapper,android.content.Context,int,android.webkit.WebView,java.lang.String):34:34 -> <init>
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lpalpgczc/n0;Landroid/content/Context;ILandroid/webkit/WebView;Ljava/lang/String;)V"}
+    1:6:void onBackPressed():36:36 -> onBackPressed
+    7:14:void onBackPressed():37:37 -> onBackPressed
+    15:22:void onBackPressed():38:38 -> onBackPressed
+    23:30:void onBackPressed():39:39 -> onBackPressed
+    31:60:void onBackPressed():40:40 -> onBackPressed
+    61:64:void onBackPressed():41:41 -> onBackPressed
+    65:70:boolean com.webloader.wrapper.access$000(java.lang.String,java.lang.String):25:25 -> onBackPressed
+    65:70:void onBackPressed():41 -> onBackPressed
+    71:74:void onBackPressed():41:41 -> onBackPressed
+    75:78:void onBackPressed():42:42 -> onBackPressed
+    79:84:boolean com.webloader.wrapper.access$000(java.lang.String,java.lang.String):25:25 -> onBackPressed
+    79:84:void onBackPressed():42 -> onBackPressed
+    85:92:void onBackPressed():43:43 -> onBackPressed
+    93:103:void onBackPressed():45:45 -> onBackPressed
+    104:113:void onBackPressed():50:50 -> onBackPressed
+    114:119:boolean com.webloader.wrapper.access$000(java.lang.String,java.lang.String):25:25 -> onBackPressed
+    114:119:void onBackPressed():50 -> onBackPressed
+    120:127:void onBackPressed():51:51 -> onBackPressed
+    128:131:void onBackPressed():54:54 -> onBackPressed
+com.webloader.wrapper$2 -> palpgczc.i0:
+# {"id":"sourceFile","fileName":"wrapper.java"}
+    com.webloader.wrapper this$0 -> msmahz
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Lpalpgczc/n0;"}
+    android.widget.LinearLayout val$indicator -> ugxvsp
+    android.app.Activity val$activity -> wjmptze
+    long[] val$started -> xanvt
+    1:12:void <init>(com.webloader.wrapper,android.app.Activity,long[],android.widget.LinearLayout):124:124 -> <init>
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lpalpgczc/n0;Landroid/app/Activity;[JLandroid/widget/LinearLayout;)V"}
+    1:4:void onPageFinished(android.webkit.WebView,java.lang.String):201:201 -> onPageFinished
+    1:9:void onPageStarted(android.webkit.WebView,java.lang.String,android.graphics.Bitmap):194:194 -> onPageStarted
+    10:18:void onPageStarted(android.webkit.WebView,java.lang.String,android.graphics.Bitmap):195:195 -> onPageStarted
+    19:25:void onPageStarted(android.webkit.WebView,java.lang.String,android.graphics.Bitmap):196:196 -> onPageStarted
+    26:31:void onPageStarted(android.webkit.WebView,java.lang.String,android.graphics.Bitmap):197:197 -> onPageStarted
+    1:5:boolean shouldOverrideUrlLoading(android.webkit.WebView,android.webkit.WebResourceRequest):127:131 -> shouldOverrideUrlLoading
+    6:6:boolean shouldOverrideUrlLoading(android.webkit.WebView,android.webkit.WebResourceRequest):134:134 -> shouldOverrideUrlLoading
+    7:7:boolean shouldOverrideUrlLoading(android.webkit.WebView,android.webkit.WebResourceRequest):133:133 -> shouldOverrideUrlLoading
+    8:8:boolean shouldOverrideUrlLoading(android.webkit.WebView,android.webkit.WebResourceRequest):142:142 -> shouldOverrideUrlLoading
+    9:9:boolean shouldOverrideUrlLoading(android.webkit.WebView,android.webkit.WebResourceRequest):144:144 -> shouldOverrideUrlLoading
+    10:10:boolean shouldOverrideUrlLoading(android.webkit.WebView,android.webkit.WebResourceRequest):143:143 -> shouldOverrideUrlLoading
+    11:11:boolean shouldOverrideUrlLoading(android.webkit.WebView,android.webkit.WebResourceRequest):145:145 -> shouldOverrideUrlLoading
+    12:13:boolean shouldOverrideUrlLoading(android.webkit.WebView,android.webkit.WebResourceRequest):147:148 -> shouldOverrideUrlLoading
+    14:15:boolean shouldOverrideUrlLoading(android.webkit.WebView,android.webkit.WebResourceRequest):152:153 -> shouldOverrideUrlLoading
+    16:16:boolean shouldOverrideUrlLoading(android.webkit.WebView,android.webkit.WebResourceRequest):155:155 -> shouldOverrideUrlLoading
+    17:17:void com.webloader.wrapper.access$100(com.webloader.wrapper,android.app.Activity,android.net.Uri):25:25 -> shouldOverrideUrlLoading
+    17:17:boolean shouldOverrideUrlLoading(android.webkit.WebView,android.webkit.WebResourceRequest):155 -> shouldOverrideUrlLoading
+    18:19:boolean shouldOverrideUrlLoading(android.webkit.WebView,android.webkit.WebResourceRequest):159:160 -> shouldOverrideUrlLoading
+    20:20:boolean shouldOverrideUrlLoading(android.webkit.WebView,android.webkit.WebResourceRequest):163:163 -> shouldOverrideUrlLoading
+    21:21:boolean shouldOverrideUrlLoading(android.webkit.WebView,android.webkit.WebResourceRequest):162:162 -> shouldOverrideUrlLoading
+    22:28:boolean shouldOverrideUrlLoading(android.webkit.WebView,android.webkit.WebResourceRequest):168:174 -> shouldOverrideUrlLoading
+    29:29:boolean shouldOverrideUrlLoading(android.webkit.WebView,android.webkit.WebResourceRequest):177:177 -> shouldOverrideUrlLoading
+    30:33:boolean shouldOverrideUrlLoading(android.webkit.WebView,android.webkit.WebResourceRequest):179:182 -> shouldOverrideUrlLoading
+    34:34:boolean shouldOverrideUrlLoading(android.webkit.WebView,android.webkit.WebResourceRequest):184:184 -> shouldOverrideUrlLoading
+    35:35:boolean shouldOverrideUrlLoading(android.webkit.WebView,android.webkit.WebResourceRequest):188:188 -> shouldOverrideUrlLoading
+    36:36:void com.webloader.wrapper.access$100(com.webloader.wrapper,android.app.Activity,android.net.Uri):25:25 -> shouldOverrideUrlLoading
+    36:36:boolean shouldOverrideUrlLoading(android.webkit.WebView,android.webkit.WebResourceRequest):188 -> shouldOverrideUrlLoading
+com.webloader.wrapper$3 -> palpgczc.l0:
+# {"id":"sourceFile","fileName":"wrapper.java"}
+    android.app.Activity val$activity -> bawn
+    android.widget.TextView val$label -> hvnbjfea
+    com.webloader.wrapper this$0 -> izlg
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Lpalpgczc/n0;"}
+    android.widget.ProgressBar val$progress -> msmahz
+    android.widget.LinearLayout val$indicator -> ubrzpnm
+    com.webloader.wrapper$MediaRequests val$media -> ugxvsp
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Lpalpgczc/m0;"}
+    long[] val$started -> upnp
+    android.webkit.WebView val$page -> wbpowbn
+    android.app.Dialog val$dialog -> whdx
+    int lastProgress -> wjmptze
+    long lastUpdate -> xanvt
+    1:1:void <init>(com.webloader.wrapper,com.webloader.wrapper$MediaRequests,android.widget.ProgressBar,long[],android.widget.TextView,android.widget.LinearLayout,android.webkit.WebView,android.app.Activity,android.app.Dialog):204:204 -> <init>
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lpalpgczc/n0;Lpalpgczc/m0;Landroid/widget/ProgressBar;[JLandroid/widget/TextView;Landroid/widget/LinearLayout;Landroid/webkit/WebView;Landroid/app/Activity;Landroid/app/Dialog;)V"}
+    2:2:void <init>(com.webloader.wrapper,com.webloader.wrapper$MediaRequests,android.widget.ProgressBar,long[],android.widget.TextView,android.widget.LinearLayout,android.webkit.WebView,android.app.Activity,android.app.Dialog):218:218 -> <init>
+    1:6:void onCloseWindow(android.webkit.WebView):254:254 -> onCloseWindow
+    1:7:boolean onCreateWindow(android.webkit.WebView,boolean,boolean,android.os.Message):245:245 -> onCreateWindow
+    8:12:boolean onCreateWindow(android.webkit.WebView,boolean,boolean,android.os.Message):246:246 -> onCreateWindow
+    13:16:android.app.Dialog com.webloader.wrapper.access$300(com.webloader.wrapper,android.app.Activity,android.webkit.WebView,java.lang.String):25:25 -> onCreateWindow
+    13:16:boolean onCreateWindow(android.webkit.WebView,boolean,boolean,android.os.Message):246 -> onCreateWindow
+    17:23:boolean onCreateWindow(android.webkit.WebView,boolean,boolean,android.os.Message):247:247 -> onCreateWindow
+    24:26:boolean onCreateWindow(android.webkit.WebView,boolean,boolean,android.os.Message):248:248 -> onCreateWindow
+    27:31:boolean onCreateWindow(android.webkit.WebView,boolean,boolean,android.os.Message):249:249 -> onCreateWindow
+    1:6:void onPermissionRequest(android.webkit.PermissionRequest):211:211 -> onPermissionRequest
+    1:11:void onPermissionRequestCanceled(android.webkit.PermissionRequest):215:215 -> onPermissionRequestCanceled
+    12:14:android.webkit.PermissionRequest com.webloader.wrapper$MediaRequests.access$202(com.webloader.wrapper$MediaRequests,android.webkit.PermissionRequest):260:260 -> onPermissionRequestCanceled
+    12:14:void onPermissionRequestCanceled(android.webkit.PermissionRequest):215 -> onPermissionRequestCanceled
+    1:4:void onProgressChanged(android.webkit.WebView,int):222:222 -> onProgressChanged
+    5:25:void onProgressChanged(android.webkit.WebView,int):223:223 -> onProgressChanged
+    26:27:void onProgressChanged(android.webkit.WebView,int):225:225 -> onProgressChanged
+    28:29:void onProgressChanged(android.webkit.WebView,int):226:226 -> onProgressChanged
+    30:35:void onProgressChanged(android.webkit.WebView,int):227:227 -> onProgressChanged
+    36:52:void onProgressChanged(android.webkit.WebView,int):228:228 -> onProgressChanged
+    53:85:void onProgressChanged(android.webkit.WebView,int):229:229 -> onProgressChanged
+    86:100:void onProgressChanged(android.webkit.WebView,int):231:231 -> onProgressChanged
+    1:7:boolean onShowFileChooser(android.webkit.WebView,android.webkit.ValueCallback,android.webkit.WebChromeClient$FileChooserParams):207:207 -> onShowFileChooser
+    1:10:void lambda$onProgressChanged$0(android.webkit.WebView,android.widget.LinearLayout):234:234 -> wjmptze
+    11:14:void lambda$onProgressChanged$0(android.webkit.WebView,android.widget.LinearLayout):235:235 -> wjmptze
+    1:8:void lambda$onProgressChanged$1(android.webkit.WebView,android.widget.LinearLayout):232:232 -> xanvt
+    9:32:void lambda$onProgressChanged$1(android.webkit.WebView,android.widget.LinearLayout):233:233 -> xanvt
+    33:36:void lambda$onProgressChanged$1(android.webkit.WebView,android.widget.LinearLayout):237:237 -> xanvt
+com.webloader.wrapper$3$$ExternalSyntheticLambda0 -> palpgczc.j0:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    android.webkit.WebView com.webloader.wrapper$3$$InternalSyntheticLambda$1$438f354c26f1472c875efb5622939b06de548989ce237d57012928bedfb49e5e$0.f$0 -> wjmptze
+      # {"id":"com.android.tools.r8.synthesized"}
+    android.widget.LinearLayout com.webloader.wrapper$3$$InternalSyntheticLambda$1$438f354c26f1472c875efb5622939b06de548989ce237d57012928bedfb49e5e$0.f$1 -> xanvt
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:8:void palpgczc.wrapper$3$$ExternalSyntheticLambda0.<init>(android.webkit.WebView,android.widget.LinearLayout):0:0 -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:8:void palpgczc.wrapper$3$$ExternalSyntheticLambda0.run():0:0 -> run
+      # {"id":"com.android.tools.r8.synthesized"}
+com.webloader.wrapper$3$$ExternalSyntheticLambda1 -> palpgczc.k0:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    android.webkit.WebView com.webloader.wrapper$3$$InternalSyntheticLambda$1$d81728215b52b910b05cbd24fc288db733f358b46aef12d9499e0ff8962ce11f$0.f$0 -> wjmptze
+      # {"id":"com.android.tools.r8.synthesized"}
+    android.widget.LinearLayout com.webloader.wrapper$3$$InternalSyntheticLambda$1$d81728215b52b910b05cbd24fc288db733f358b46aef12d9499e0ff8962ce11f$0.f$1 -> xanvt
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:8:void palpgczc.wrapper$3$$ExternalSyntheticLambda1.<init>(android.webkit.WebView,android.widget.LinearLayout):0:0 -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:8:void palpgczc.wrapper$3$$ExternalSyntheticLambda1.run():0:0 -> run
+      # {"id":"com.android.tools.r8.synthesized"}
+com.webloader.wrapper$MediaRequests -> palpgczc.m0:
+# {"id":"sourceFile","fileName":"wrapper.java"}
+    int CAMERA -> msmahz
+    int PICK_FILE -> ugxvsp
+    android.webkit.ValueCallback file -> wjmptze
+    android.webkit.PermissionRequest camera -> xanvt
+    1:4:void <init>():260:260 -> <init>
+    1:16:void grantCamera(android.webkit.PermissionRequest):335:335 -> hvnbjfea
+    1:6:boolean chooseFile(android.webkit.ValueCallback,android.webkit.WebChromeClient$FileChooserParams):267:267 -> msmahz
+    7:10:boolean chooseFile(android.webkit.ValueCallback,android.webkit.WebChromeClient$FileChooserParams):268:268 -> msmahz
+    11:12:boolean chooseFile(android.webkit.ValueCallback,android.webkit.WebChromeClient$FileChooserParams):271:271 -> msmahz
+    13:22:boolean chooseFile(android.webkit.ValueCallback,android.webkit.WebChromeClient$FileChooserParams):273:273 -> msmahz
+    23:26:boolean chooseFile(android.webkit.ValueCallback,android.webkit.WebChromeClient$FileChooserParams):275:275 -> msmahz
+    1:8:void onActivityResult(int,int,android.content.Intent):281:281 -> onActivityResult
+    9:12:void onActivityResult(int,int,android.content.Intent):283:283 -> onActivityResult
+    13:16:void onActivityResult(int,int,android.content.Intent):284:284 -> onActivityResult
+    1:7:void onRequestPermissionsResult(int,java.lang.String[],int[]):323:323 -> onRequestPermissionsResult
+    8:13:void onRequestPermissionsResult(int,java.lang.String[],int[]):324:324 -> onRequestPermissionsResult
+    14:15:void onRequestPermissionsResult(int,java.lang.String[],int[]):326:326 -> onRequestPermissionsResult
+    16:24:void onRequestPermissionsResult(int,java.lang.String[],int[]):327:327 -> onRequestPermissionsResult
+    25:28:void onRequestPermissionsResult(int,java.lang.String[],int[]):328:328 -> onRequestPermissionsResult
+    29:32:void onRequestPermissionsResult(int,java.lang.String[],int[]):330:330 -> onRequestPermissionsResult
+    3:17:void requestCamera(android.webkit.PermissionRequest):308:308 -> ubrzpnm
+    18:35:void requestCamera(android.webkit.PermissionRequest):312:312 -> ubrzpnm
+    36:39:void requestCamera(android.webkit.PermissionRequest):314:314 -> ubrzpnm
+    40:41:void requestCamera(android.webkit.PermissionRequest):317:317 -> ubrzpnm
+    42:55:void requestCamera(android.webkit.PermissionRequest):318:318 -> ubrzpnm
+    56:59:void requestCamera(android.webkit.PermissionRequest):309:309 -> ubrzpnm
+    2:4:void cancel():339:339 -> ugxvsp
+    5:8:void cancel():340:340 -> ugxvsp
+    9:11:void cancel():341:341 -> ugxvsp
+    12:14:void cancel():342:342 -> ugxvsp
+    1:3:void finishFile(android.net.Uri[]):288:288 -> upnp
+    4:7:void finishFile(android.net.Uri[]):289:289 -> upnp
+    8:11:void finishFile(android.net.Uri[]):291:291 -> upnp
+    5:10:boolean requestsVideo(java.lang.String[]):299:299 -> wbpowbn
+    11:30:boolean requestsVideo(java.lang.String[]):300:300 -> wbpowbn
+    1:3:android.webkit.PermissionRequest access$200(com.webloader.wrapper$MediaRequests):260:260 -> wjmptze
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lpalpgczc/m0;)Landroid/webkit/PermissionRequest;"}
+    1:3:android.webkit.PermissionRequest access$202(com.webloader.wrapper$MediaRequests,android.webkit.PermissionRequest):260:260 -> xanvt
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lpalpgczc/m0;Landroid/webkit/PermissionRequest;)Landroid/webkit/PermissionRequest;"}
+com.webloader.wskpola -> palpgczc.o0:
+# {"id":"sourceFile","fileName":"wskpola.java"}
+    com.kFjQzLm.fog.StringFogAesImpl IMPL -> wjmptze
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Lpalpgczc/h;"}
+    1:2:void <clinit>():7:7 -> <clinit>
+    3:5:void com.kFjQzLm.fog.StringFogAesImpl.<init>():6:6 -> <clinit>
+    3:5:void <clinit>():7 -> <clinit>
+    6:8:void <clinit>():7:7 -> <clinit>
+    1:4:void <init>():6:6 -> <init>
+    1:7:java.lang.String decrypt(java.lang.String,java.lang.String):10:10 -> wjmptze
+    8:11:java.lang.String decrypt(java.lang.String,java.lang.String):11:11 -> wjmptze
+    12:16:java.lang.String decrypt(java.lang.String,java.lang.String):10:10 -> wjmptze

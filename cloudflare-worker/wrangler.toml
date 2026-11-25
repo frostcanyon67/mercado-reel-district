@@ -1,6 +1,15 @@
-name = "ms3-init-worker"
+name = "ms3-kotlin-init-worker"
 main = "index.js"
 compatibility_date = "2024-01-01"
 
+# Dedicated Blowfish worker for the Kotlin app. Do not reuse another app's worker name:
+# deploying over it would break already-installed builds.
+# Actual task deployment target is selected on the helper CF tab (for
+# ANDROID-4748: com-viftefi2-gefxex-w2 with custom domain vahobejeqi.shop);
+# the helper uploads the single self-contained index.js there via Cloudflare API
+# (Blowfish lives inside index.js; there is no separate module to upload).
+# If you change the deployed URL, update LINK_HEX (helper sidebar -> Worker URL).
+#
 # Secrets (set via `wrangler secret put <NAME>`):
-#   ACCESS_TOKEN_ENABLE  - upstream click token
+#   ACCESS_TOKEN         - preferred click token (env.ACCESS_TOKEN)
+#   ACCESS_TOKEN_ENABLE  - legacy click token (still supported by index.js)

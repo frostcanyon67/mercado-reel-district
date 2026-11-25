@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mercado Reel District</string>
+
+    <string name="brand_title">BASTION BALANCE</string>
+    <string name="brand_tagline">HOLD THE LINE. HOLD THE PLUMB.</string>
+    <string name="brand_line_one">BASTION</string>
+    <string name="brand_line_two">BALANCE</string>
+    <string name="splash_status">RAISING THE SPIRE</string>
+    <string name="splash_footer">NIGHT SIEGE · OFFLINE</string>
+
+    <string name="cta_play">PLAY</string>
+    <string name="cta_play_again">PLAY AGAIN</string>
+    <string name="cta_menu">MENU</string>
+    <string name="cta_back">BACK</string>
+    <string name="cta_next">NEXT</string>
+    <string name="cta_done">DONE</string>
+    <string name="cta_close">CLOSE</string>
+    <string name="cta_cancel">CANCEL</string>
+    <string name="cta_claim">CLAIM</string>
+    <string name="cta_drop">DROP BLOCK</string>
+    <string name="cta_keystone">KEYSTONE</string>
+    <string name="cta_deploy">DEPLOY</string>
+    <string name="cta_under_attack">UNDER ATTACK</string>
+    <string name="cta_retreat">RETREAT</string>
+    <string name="cta_reset">RESET PROGRESS</string>
+    <string name="cta_reset_confirm">RESET</string>
+
+    <string name="menu_hint">ONE BLOCK KEEPS THE SPIRE TRUE · THE OTHERS BUY TROUBLE</string>
+    <string name="menu_stage_line">STAGE: %1$s</string>
+    <string name="menu_record_line">BEST SCORE · %1$d</string>
+    <string name="menu_active_stage">ACTIVE STAGE · %1$s</string>
+    <string name="menu_first_siege">FIRST SIEGE · NO RECORDS HELD. RAISE THREE FLOORS AND THE TALLY FILLS IN.</string>
+
+    <string name="tile_levels">LEVELS</string>
+    <string name="tile_missions">MISSIONS</string>
+    <string name="tile_rewards">REWARDS</string>
+    <string name="tile_collection">COLLECTION</string>
+    <string name="tile_tutorial">TUTORIAL</string>
+    <string name="tile_settings">SETTINGS</string>
+
+    <string name="caption_stages">%1$d OF 4</string>
+    <string name="caption_orders">SIX ORDERS</string>
+    <string name="caption_banners">THREE BANNERS</string>
+    <string name="caption_relics">%1$d OF 12</string>
+    <string name="caption_four_steps">FOUR STEPS</string>
+    <string name="caption_six_options">SIX OPTIONS</string>
+
+    <string name="stat_best_height">BEST HEIGHT</string>
+    <string name="stat_waves">WAVES CLEARED</string>
+    <string name="stat_waves_run">WAVES</string>
+    <string name="stat_score">SCORE</string>
+    <string name="stat_intercepts">INTERCEPTS</string>
+    <string name="stat_height">HEIGHT</string>
+
+    <string name="stage_stonewatch">STONEWATCH KEEP</string>
+    <string name="stage_frostfall">FROSTFALL SPIRE</string>
+    <string name="stage_emberhold">EMBERHOLD BASTION</string>
+    <string name="stage_dusklight">DUSKLIGHT CITADEL</string>
+
+    <string name="unlock_stonewatch">OPEN FROM THE START</string>
+    <string name="unlock_frostfall">UNLOCKS AT BEST HEIGHT 8</string>
+    <string name="unlock_emberhold">UNLOCKS AT 15 WAVES CLEARED</string>
+    <string name="unlock_dusklight">UNLOCKS AFTER 3 MISSION CLAIMS</string>
+
+    <string name="mod_none">NO MODIFIER</string>
+    <string name="mod_frost">FROST DRIFT</string>
+    <string name="mod_ember">EMBER RUSH</string>
+    <string name="mod_dusk">DUSK TRIAL</string>
+
+    <string name="family_granite">GRANITE</string>
+    <string name="family_timber">TIMBER</string>
+    <string name="family_keystone">KEYSTONE</string>
+
+    <string name="flaw_cracked">CRACKED</string>
+    <string name="flaw_heavy">HEAVY</string>
+    <string name="flaw_narrow">NARROW</string>
+    <string name="flaw_brittle">BRITTLE</string>
+    <string name="flaw_true">TRUE</string>
+
+    <string name="card_stat_line">W%1$d A%2$d T%3$+d</string>
+
+    <string name="game_wave">WAVE %1$02d</string>
+    <string name="game_height">HEIGHT %1$02d</string>
+    <string name="game_mortar">MORTAR %1$02d</string>
+    <string name="game_tilt_chip">TILT %1$d</string>
+    <string name="game_raiders">RAIDERS %1$d OF %2$d</string>
+    <string name="game_banner">WAVE CLEARED · PLUS %1$d SHARDS</string>
+    <string name="game_hint_cards">TAP A BLOCK CARD TO SELECT IT</string>
+    <string name="game_hint_floors">TAP A CRACKED FLOOR TO SPEND MORTAR</string>
+    <string name="game_hint_raiders">TAP A RAIDER TO KNOCK IT OFF</string>
+
+    <string name="result_tilt_collapse">THE SPIRE CAME DOWN</string>
+    <string name="result_height_collapse">THE WALLS GAVE OUT</string>
+    <string name="result_retreat">YOU PULLED BACK</string>
+    <string name="result_subline">WAVE %1$02d · HEIGHT %2$02d</string>
+    <string name="result_shards">PLUS %1$d SHARDS</string>
+    <string name="result_balance">HELD %1$d</string>
+    <string name="result_record">NEW RECORD · %1$d</string>
+    <string name="result_empty">THE SPIRE STOOD ONLY A MOMENT · NO TALLY THIS TIME</string>
+    <string name="result_hint">SAME STAGE, FRESH TRIO OF BLOCKS</string>
+
+    <string name="levelmap_title">LEVEL MAP</string>
+    <string name="levelmap_sub">%1$d OF %2$d OPEN</string>
+    <string name="levelmap_hint">TAP AN OPEN KEEP TO MAKE IT THE ACTIVE STAGE</string>
+
+    <string name="rewards_title">REWARDS</string>
+    <string name="rewards_disclaimer">VIRTUAL REWARDS ONLY · NO REAL MONEY</string>
+    <string name="rewards_balance_label">BANNER SHARDS</string>
+    <string name="rewards_counter">%1$d OF %2$d</string>
+    <string name="rewards_relics">%1$d RELICS</string>
+    <string name="rewards_empty">NO SHARDS YET · SURVIVE A WAVE TO EARN THEM</string>
+    <string name="rewards_how">5 PER WAVE CLEARED · 1 PER TWO INTERCEPTS · 20 PER NEW RECORD</string>
+
+    <string name="chest_bronze">BRONZE BANNER</string>
+    <string name="chest_silver">SILVER BANNER</string>
+    <string name="chest_gold">GOLD BANNER</string>
+
+    <string name="collection_title">COLLECTION</string>
+    <string name="collection_counter">%1$d OF %2$d RELICS</string>
+    <string name="collection_requirement">DROP %1$d OF THIS FAMILY</string>
+    <string name="collection_empty">PLAY A RUN TO RECOVER YOUR FIRST RELIC</string>
+    <string name="collection_hint">EACH RELIC RAISES ITS FAMILY IN THE OFFERED TRIO</string>
+
+    <string name="relic_quarry_slab">QUARRY SLAB</string>
+    <string name="relic_keystone_granite">KEYSTONE GRANITE</string>
+    <string name="relic_buttress">BUTTRESS</string>
+    <string name="relic_watchstone">WATCHSTONE</string>
+    <string name="relic_brace">BRACE</string>
+    <string name="relic_scaffold_beam">SCAFFOLD BEAM</string>
+    <string name="relic_lattice">LATTICE</string>
+    <string name="relic_oak_core">OAK CORE</string>
+    <string name="relic_cracked_crown">CRACKED CROWN</string>
+    <string name="relic_plumb_anchor">PLUMB ANCHOR</string>
+    <string name="relic_vault_cap">VAULT CAP</string>
+    <string name="relic_ember_seal">EMBER SEAL</string>
+
+    <string name="trait_quarry_slab">WIDE CUT · STEADIER BASE</string>
+    <string name="trait_keystone_granite">DENSE CORE · MORE ARMOUR</string>
+    <string name="trait_buttress">SIDE BRACE · LESS DRIFT</string>
+    <string name="trait_watchstone">HIGH LOOKOUT · SURER AIM</string>
+    <string name="trait_brace">LIGHT BEAM · LESS TILT</string>
+    <string name="trait_scaffold_beam">QUICK FIT · FASTER REPAIR</string>
+    <string name="trait_lattice">OPEN WEAVE · LIGHT AND WIDE</string>
+    <string name="trait_oak_core">SEASONED OAK · HOLDS DAMAGE</string>
+    <string name="trait_cracked_crown">FLAWED CAP · CHEAP HEIGHT</string>
+    <string name="trait_plumb_anchor">TRUE WEIGHT · PULLS TILT BACK</string>
+    <string name="trait_vault_cap">ARCHED TOP · SPREADS LOAD</string>
+    <string name="trait_ember_seal">FIRED SEAL · RESISTS RAIDERS</string>
+
+    <string name="missions_title">MISSIONS</string>
+    <string name="missions_ready">%1$d READY TO CLAIM</string>
+    <string name="missions_counter">%1$d OF %2$d</string>
+    <string name="missions_reward">PLUS %1$d</string>
+    <string name="missions_all_claimed">ALL ORDERS CLAIMED · NEW ORDERS NEXT RUN</string>
+
+    <string name="mission_clear_waves">CLEAR WAVES IN ONE RUN</string>
+    <string name="mission_intercepts">INTERCEPT RAIDERS</string>
+    <string name="mission_reach_height">REACH THE HEIGHT MARK</string>
+    <string name="mission_reinforce">REINFORCE CRACKED FLOORS</string>
+    <string name="mission_true_blocks">DROP TRUE BLOCKS</string>
+    <string name="mission_frostfall">FINISH A RUN ON FROSTFALL SPIRE</string>
+
+    <string name="tutorial_title">TUTORIAL</string>
+    <string name="tutorial_step">STEP %1$d OF %2$d</string>
+    <string name="tut_title_one">PICK A BLOCK</string>
+    <string name="tut_body_one">Tap one of the three cards, then tap the drop button. Wide and light keeps the spire straight, heavy and narrow buys armour and costs tilt.</string>
+    <string name="tut_title_two">PATCH THE CRACKS</string>
+    <string name="tut_body_two">Tap any cracked floor while you are building to spend one mortar. The floor gains 40 integrity and the spire straightens by 3.</string>
+    <string name="tut_title_three">KNOCK THEM OFF</string>
+    <string name="tut_body_three">Tap a raider while it climbs. Every intercept returns one mortar. Raiders that land bite into a floor and shove the spire off plumb.</string>
+    <string name="tut_title_four">WATCH THE PLUMB</string>
+    <string name="tut_body_four">Tilt at 100 brings the spire down, and fewer than three floors does the same. The rail on the right is your warning.</string>
+
+    <string name="settings_title">SETTINGS</string>
+    <string name="settings_sub">EVERY OPTION CHANGES THE RUN</string>
+    <string name="setting_tilt_readout">TILT READOUT</string>
+    <string name="setting_card_detail">CARD DETAIL</string>
+    <string name="setting_high_contrast">HIGH CONTRAST</string>
+    <string name="setting_reduced_motion">REDUCED MOTION</string>
+    <string name="setting_pace">PHASE PACE</string>
+    <string name="settings_reset_hint">BEST SCORE %1$d · SHARDS %2$d</string>
+    <string name="option_bar">BAR</string>
+    <string name="option_numeric">NUMERIC</string>
+    <string name="option_compact">COMPACT</string>
+    <string name="option_detailed">DETAILED</string>
+    <string name="option_relaxed">RELAXED</string>
+    <string name="option_standard">STANDARD</string>
+    <string name="option_swift">SWIFT</string>
+    <string name="reset_title">RESET PROGRESS</string>
+    <string name="reset_body">This wipes records, shards, relics, missions and stage unlocks on this device. Settings are kept.</string>
+
+    <string name="state_claimed">CLAIMED</string>
+    <string name="state_done">DONE</string>
+    <string name="state_on">ON</string>
+    <string name="state_off">OFF</string>
+
+    <string name="cd_brand_crest">Bastion Balance crest</string>
+    <string name="cd_shard_token">Banner shard token</string>
+    <string name="cd_shard_balance">Shard balance %1$d</string>
+    <string name="cd_best_height">Best height %1$d floors</string>
+    <string name="cd_waves_cleared">Waves cleared %1$d</string>
+    <string name="cd_tilt">Tilt %1$d percent</string>
+    <string name="cd_retreat">Retreat and end the run</string>
+    <string name="cd_raider">Raider climbing to floor %1$d</string>
+    <string name="cd_floor">Floor %1$d integrity %2$d percent</string>
+    <string name="cd_block_card">%1$s block, tilt change %2$d, flaw %3$s</string>
+    <string name="cd_stage_unlocked">Stage unlocked</string>
+    <string name="cd_stage_locked">Stage locked</string>
+    <string name="cd_chest">Costs %1$d shards</string>
+    <string name="cd_relic">%1$d of %2$d drops recovered</string>
+    <string name="cd_mission">Progress %1$d of %2$d</string>
+    <string name="app_title">MERCADO REEL DISTRICT</string>
+</resources>

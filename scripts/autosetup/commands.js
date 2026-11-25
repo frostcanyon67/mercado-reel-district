@@ -1,7 +1,6 @@
 /**
- * Единый список команд autosetup / release.
- * Источник описаний для `npm run cmds`.
- * Скрипты в package.json должны совпадать с полем `npm`.
+ * Единый список команд autosetup.
+ * Источник описаний для `npm run cmds` (scripts/autosetup/listCommands.js).
  */
 module.exports = [
   {
@@ -13,13 +12,7 @@ module.exports = [
     group: "полный сетап",
     npm: "autosetup",
     description:
-      "Полный цикл: Jira (поля+вложения+Worker URL из комментариев) + rotate + path-check + npm + checklist (иконка вручную)",
-  },
-  {
-    group: "полный сетап",
-    npm: "autosetup:assets",
-    description:
-      "Только keystore/google-services/game из Jira + path-check (без rotate, npm и checklist)",
+      "Jira + meta.json → appName/applicationId, keystore/google-services, game source, webview payload, LINK_HEX, CF-protocol, ротация Blowfish, pad-методы, обфускация, clean, checklist",
   },
   {
     group: "полный сетап",
@@ -28,83 +21,99 @@ module.exports = [
   },
   {
     group: "частичные шаги",
-    npm: "autosetup:meta",
+    npm: "autosetup:jira",
     description:
-      "Jira → appName/package + Cloudflare Worker URL → LINK_HEX в Rumokuroh.java",
+      "Jira: summary → appName, Package name → applicationId, вложения в temp (keystore/google-services/source)",
   },
   {
     group: "частичные шаги",
-    npm: "autosetup:keystore",
-    description: "Только keystore из Jira *.tar.gz + gradle.properties",
+    npm: "autosetup:meta",
+    description: "meta.json → app/build.gradle + res/values/strings.xml",
   },
   {
     group: "частичные шаги",
-    npm: "autosetup:google-services",
-    description: "Только google-services.json из Jira",
+    npm: "autosetup:link",
+    description: "LINK_HEX ← Cloudflare Worker URL: [CfWorkerDomain] из Jira (https://<workerDomain>/), иначе meta.cloudflareUrl",
+  },
+  {
+    group: "частичные шаги",
+    npm: "autosetup:assets",
+    description:
+      "Jira-вложения или meta.keystore / google-services / подпись → app/ + gradle.properties",
   },
   {
     group: "частичные шаги",
     npm: "autosetup:game",
     description:
-      "Код игры из Jira *_source.zip → assets + @app-slot:game бандлы в Layouts/Game",
+      "*_source.zip (Kotlin/Compose) → app/src/main/java (package → namespace), res, ui/GameHost.kt",
   },
   {
     group: "частичные шаги",
-    npm: "autosetup:rotate",
+    npm: "autosetup:icons",
+    description: "icon PNG из Jira → res/mipmap-* (launcher/round/foreground) + playstore-icon.png",
+  },
+  {
+    group: "частичные шаги",
+    npm: "autosetup:privacy",
+    description: "Privacy URL из Jira → cloudflare-worker/index.js (маркеры + роут /policy)",
+  },
+  {
+    group: "частичные шаги",
+    npm: "autosetup:webview",
     description:
-      "Новый AES-256-GCM ключ (PASSWORD + SALT) в native + worker; LINK_HEX перешифровка",
+      "Payload: javac → StringFog + R8 (per-project seed, dummy-классы, случайный asset) → AES-GCM + mapping; пин/entry/asset в DexOpener",
   },
   {
     group: "частичные шаги",
     npm: "autosetup:cf-protocol",
+    description: "Рандомизация CfFields.kt + CF_PROTOCOL воркера (meta.cfProtocol)",
+  },
+  {
+    group: "частичные шаги",
+    npm: "autosetup:rotate",
+    description: "Новый Blowfish ключ/IV для Blowfish.kt + воркера + LINK_HEX",
+  },
+  {
+    group: "частичные шаги",
+    npm: "autosetup:pad-methods",
+    description: "Блоки приватных методов (/* autopad-* */) в .kt/.java",
+  },
+  {
+    group: "частичные шаги",
+    npm: "autosetup:obfuscation",
+    description: "R8 + StringFog по meta.obfuscation",
+  },
+  {
+    group: "частичные шаги",
+    npm: "autosetup:randomize",
     description:
-      "Рандом CF_PROTOCOL (cookieName/headerName/path/bodyField/extraQuery/dummyBodyKeys) в worker + native, сохранение в meta.cfProtocol",
+      "Новый словарь R8 + -repackageclasses и новые имена ресурсов (drawable/mipmap/xml/raw/font) с правкой ссылок",
   },
   {
     group: "частичные шаги",
-    npm: "autosetup:native-check",
-    description:
-      "Проверка v2-native: BwCodec + gemefuxolaru/jopuwikemavo + cf-intake:v2 маркер",
+    npm: "autosetup:description",
+    description: "Описание игры (по строкам/экранам проекта) комментарием в задачу Jira",
   },
   {
     group: "частичные шаги",
-    npm: "autosetup:paths",
-    description: "Только проверка путей в Layouts/Game и App.tsx",
+    npm: "autosetup:fb-jira",
+    description: "Facebook Key Hash (release keystore) + FB Class Name (<namespace>.MainActivity) в поля Jira",
   },
   {
     group: "частичные шаги",
-    npm: "autosetup:npm",
-    description: "Только npm install",
+    npm: "autosetup:clean",
+    description: "Удалить build / app/build / .kotlin",
   },
   {
     group: "частичные шаги",
-    npm: "autosetup:clean-android",
-    description: "Удалить android/build и android/app/build",
-  },
-  {
-    group: "хвост",
-    npm: "autosetup:tail",
-    description:
-      "Path-check, описание в Jira, .git из GitHub, AAB workflow, FB hash/Class Name",
-  },
-  {
-    group: "хвост",
     npm: "autosetup:github-aab",
-    description: ".git из GitHub + AAB workflow и секреты (gh) в JS",
+    description:
+      "Workflow .github/workflows/android-aab.yml + GitHub Secrets (KEYSTORE_BASE64 / пароли / google-services) через gh",
   },
   {
-    group: "релиз",
-    npm: "release",
-    description: "assembleRelease + bundleRelease → ReadyBuilds (имя как в Helper)",
-  },
-  {
-    group: "релиз",
-    npm: "release:apk",
-    description: "Только APK (assembleRelease) → ReadyBuilds",
-  },
-  {
-    group: "релиз",
-    npm: "release:aab",
-    description: "Только AAB (bundleRelease) → ReadyBuilds",
+    group: "частичные шаги",
+    npm: "autosetup:git",
+    description:
+      "Github Token + Git URL из Jira → .git из GitHub (origin без токена); --push-git → первый commit + push",
   },
 ];
