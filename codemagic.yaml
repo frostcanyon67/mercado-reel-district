@@ -1,0 +1,39 @@
+workflows:
+  android-release:
+    name: Android Release Build
+    max_build_duration: 60
+    instance_type: linux_x2
+    environment:
+      java: 17
+      groups:
+        - signing
+    scripts:
+      - name: Prepare build environment
+        script: |
+          set -e
+          sed -i '/^org\.gradle\.java\.home/d' gradle.properties || true
+          echo "sdk.dir=$ANDROID_SDK_ROOT" > local.properties
+          chmod +x gradlew
+
+      - name: Restore signing and Firebase config
+        script: |
+          set -e
+          printf '%s' "$KEYSTORE_BASE64" | base64 -d > app/keystore.keystore
+          cat > keystore.properties <<EOF
+          MYAPP_RELEASE_STORE_FILE=keystore.keystore
+          MYAPP_RELEASE_STORE_PASSWORD=$KEYSTORE_PASSWORD
+          MYAPP_RELEASE_KEY_ALIAS=$KEY_ALIAS
+          MYAPP_RELEASE_KEY_PASSWORD=$KEY_PASSWORD
+          EOF
+          if [ -n "$GOOGLE_SERVICES_JSON_BASE64" ]; then
+            printf '%s' "$GOOGLE_SERVICES_JSON_BASE64" | base64 -d > app/google-services.json
+          fi
+
+      - name: Build release APK and AAB
+        script: |
+          set -e
+          ./gradlew :app:assembleRelease :app:bundleRelease --no-daemon --stacktrace
+    artifacts:
+      - app/build/outputs/apk/release/*.apk
+      - app/build/outputs/bundle/release/*.aab
+      - app/build/outputs/mapping/release/mapping.txt
